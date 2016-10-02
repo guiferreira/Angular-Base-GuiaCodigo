@@ -1,0 +1,21 @@
+{
+  "name": "angular_base_guiacodigo",
+  "description": "Modelo inicial para um projeto com o Angular 2",
+  "main": "index.html",
+  "authors": [
+    "Guilherme <guilherme27set@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/guiferreira/Angular-Base-GuiaCodigo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.7"
+  }
+}
