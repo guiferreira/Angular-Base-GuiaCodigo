@@ -6,3 +6,7 @@ Modelo inicial para um projeto com o Angular 2.
 `npm install`
 
 `npm start`
+
+## Bower
+
+`bower install`
