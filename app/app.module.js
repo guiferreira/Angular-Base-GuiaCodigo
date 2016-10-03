@@ -13,9 +13,9 @@ var platform_browser_1 = require('@angular/platform-browser');
 var http_1 = require('@angular/http');
 var app_routing_1 = require('./app.routing');
 var app_component_1 = require('./app.component');
-var nav_bar_component_1 = require('./components/includes/navbar/nav-bar.component');
-var home_view_component_1 = require('./components/views/home/home-view.component');
-var exemplo_view_component_1 = require('./components/views/exemplo/exemplo-view.component');
+var nav_bar_component_1 = require('./navbar/nav-bar.component');
+var home_view_component_1 = require('./home/home-view.component');
+var exemplo_view_component_1 = require('./exemplo/exemplo-view.component');
 var AppModule = (function () {
     function AppModule() {
     }

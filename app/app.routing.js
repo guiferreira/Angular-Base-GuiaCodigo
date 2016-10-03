@@ -1,7 +1,7 @@
 "use strict";
 var router_1 = require('@angular/router');
-var home_view_component_1 = require('./components/views/home/home-view.component');
-var exemplo_view_component_1 = require('./components/views/exemplo/exemplo-view.component');
+var home_view_component_1 = require('./home/home-view.component');
+var exemplo_view_component_1 = require('./exemplo/exemplo-view.component');
 var appRoutes = [
     {
         path: '',

@@ -5,9 +5,9 @@ import { HttpModule }    from '@angular/http';
 import { routing } from './app.routing'
 import { AppComponent }   from './app.component';
 
-import { NavBarComponent }   from './components/includes/navbar/nav-bar.component';
-import { HomeViewComponent }   from './components/views/home/home-view.component';
-import { ExemploViewComponent }   from './components/views/exemplo/exemplo-view.component';
+import { NavBarComponent }   from './navbar/nav-bar.component';
+import { HomeViewComponent }   from './home/home-view.component';
+import { ExemploViewComponent }   from './exemplo/exemplo-view.component';
 
 
 
@@ -21,7 +21,7 @@ import { ExemploViewComponent }   from './components/views/exemplo/exemplo-view.
     NavBarComponent,
     HomeViewComponent,
     ExemploViewComponent
-  ],  
+  ],
   bootstrap:    [ AppComponent,NavBarComponent  ]
 })
 export class AppModule { }
